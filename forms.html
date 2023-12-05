@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="demo.xml " method="get">
+    <fieldset>
+        <legend><h1>create account</h1></legend>
+        <label>enter your name</label>
+        <input type="text">
+        <br>
+        <label>enter your mail</label>
+        <input type="email">
+        <br>
+        <label>enter your phone number</label>
+        <input type="number"required/>
+        <br>
+        <label>password</label>
+        <input type="password">
+        <br>
+        <label>date of birth</label>
+        <input type="datetime-local">
+        <br>
+        <label>gender</label>
+        <input type="radio" name="fav" values="m"/>
+        <label for="male name">male</label>
+        <input type="radio"name="fav1" values="f"/>
+        <br>
+        <label>you like to receive:</label><br>
+        <input type="checkbox" name="one"/><br>
+        <label for="bb">entertainment</label><br>
+        <input type="checkbox" name="two"/><br>
+        <label>sports</label>
+        <input type="checkbox" name="three"/>
+        <label>action</label><br>
+        <label>select a file</label><br>
+        <input type="file"multiple>
+        <select size="1">
+         <option>puff</option>  
+         <option>juice</option> 
+         <option>brownie</option>
+        </select>
+        <br>
+        <textarea name="fd" cols="40" rows="10">
+        how was the brownie.</textarea><br>
+        select the week
+        <input type="week">
+        <input type="range"max="100"/>
+        <input type="submit " values="register"/>
+        <input type="reset"/>
+        </fieldset>
+        
+    </form>
+</body>
+</html>
